@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF8"?>
 <root>
-	<!--ÅäÖÃ´®Áª¿â²ÎÊý-->
+	<!--é…ç½®ä¸²è”åº“å‚æ•°-->
 	<username1>bdchlw</username1>
 	<password1>Hlwsvr-192-bdchlw</password1>
 	<url1>jdbc:oracle:thin:@192.168.1.192:1521:Hlwsvr</url1>
 
 	<username2>bdc</username2>
 	<password2>bcd_xzzwy**##1234</password2>
-	<url2>jdbc:sqlserver://218.3.177.83:1433;DatabaseName=xzzwfw_queue</url2>
+	<url2>jdbc:sqlserver://---:1433;DatabaseName=xzzwfw_queue</url2>
 
-	<!--Êý¾Ý»Ø¹öµÄ·½Ê½-->
+	<!--æ•°æ®å›žæ»šçš„æ–¹å¼-->
 	<rollbackType>true</rollbackType>
 
-	<!--ÊÇ·ñÆôÓÃ¶¨Ê±³ÌÐò-->
+	<!--æ˜¯å¦å¯ç”¨å®šæ—¶ç¨‹åº-->
 	<isUseQuartz>true</isUseQuartz>
 	
-	<!--ÍÆËÍÊý¾ÝµÄÆô¶¯Ö´ÐÐÊ±¼ä-->
+	<!--æŽ¨é€æ•°æ®çš„å¯åŠ¨æ‰§è¡Œæ—¶é—´-->
 	<startTime>*/15 * * * * ?</startTime>
 	
-	<!--ÌáÇ°¼¸ÌìÍÆÊý¾Ý Ä¬ÈÏÒ»Ìì Ôò²éÕÒµÄÊÇÃ÷ÈÕÔ¤Ô¼Êý¾Ý-->
+	<!--æå‰å‡ å¤©æŽ¨æ•°æ® é»˜è®¤ä¸€å¤© åˆ™æŸ¥æ‰¾çš„æ˜¯æ˜Žæ—¥é¢„çº¦æ•°æ®-->
 	<advanceTime>5</advanceTime>
 </root>
 
